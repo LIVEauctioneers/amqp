@@ -7,6 +7,8 @@ import (
 	"net"
 	"testing"
 	"time"
+
+	"github.com/LIVEauctioneers/amqp"
 )
 
 func tlsServerConfig() *tls.Config {
