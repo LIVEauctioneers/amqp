@@ -1,8 +1,8 @@
-package amqp_test
+package LAamqp_test
 
 import (
 	"fmt"
-	"github.com/LIVEauctioneers/amqp"
+	amqp "github.com/LIVEauctioneers/LAamqp"
 	"os"
 )
 

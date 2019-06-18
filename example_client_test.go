@@ -1,9 +1,9 @@
-package amqp_test
+package LAamqp_test
 
 import (
 	"errors"
 	"fmt"
-	"github.com/streadway/amqp"
+	amqp "github.com/LIVEauctioneers/LAamqp"
 	"log"
 	"os"
 	"time"

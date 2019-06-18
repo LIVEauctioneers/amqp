@@ -15,7 +15,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/LIVEauctioneers/amqp"
+	amqp "github.com/LIVEauctioneers/LAamqp"
 	"golang.org/x/net/context"
 )
 

@@ -1,6 +1,6 @@
 // +build gofuzz
 
-package amqp
+package LAamqp
 
 import "bytes"
 

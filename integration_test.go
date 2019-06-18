@@ -5,7 +5,7 @@
 
 // +build integration
 
-package amqp
+package LAamqp
 
 import (
 	"bytes"

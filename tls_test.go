@@ -1,4 +1,4 @@
-package amqp_test
+package LAamqp_test
 
 import (
 	"crypto/tls"
@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/LIVEauctioneers/amqp"
+	amqp "github.com/LIVEauctioneers/LAamqp"
 )
 
 type tlsServer struct {

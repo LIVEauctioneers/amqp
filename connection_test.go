@@ -5,7 +5,7 @@
 
 // +build integration
 
-package amqp
+package LAamqp
 
 import (
 	"crypto/tls"
@@ -88,7 +88,7 @@ func TestRaceBetweenChannelAndConnectionClose(t *testing.T) {
 // (channel.shutdown) does not race with calling channel.send() from any other
 // goroutines.
 //
-// See https://github.com/streadway/amqp/pull/253#issuecomment-292464811 for
+// See https://github.com/LIVEauctioneers/amqp/pull/253#issuecomment-292464811 for
 // more details - thanks to jmalloc again.
 func TestRaceBetweenChannelShutdownAndSend(t *testing.T) {
 	defer time.AfterFunc(10*time.Second, func() { panic("Close deadlock") }).Stop()
