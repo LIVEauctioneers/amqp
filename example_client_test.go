@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/LIVEauctioneeers/amqp"
+	"github.com/LIVEauctioneers/amqp"
 )
 
 // This exports a Session object that wraps this library. It
